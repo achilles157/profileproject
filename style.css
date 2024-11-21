@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+header {
+    background: linear-gradient(to right, #6c757d, #1162cb);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    padding: 20px 0;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.skills-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.skill {
+    display: flex;
+    flex-direction: column; /* Mengatur gambar dan teks dalam kolom */
+    align-items: center; /* Mengatur konten di tengah */
+    margin: 10px; /* Menambahkan jarak antar skill */
+}
+
+.skill-icon , .contact-image {
+    max-width: 80px; /* Atur lebar maksimum ikon */
+    max-height: 80px; /* Atur tinggi maksimum ikon */
+    width: auto; /* Biarkan lebar otomatis */
+    height: auto; /* Biarkan tinggi otomatis */
+    margin-bottom: 5px; /* Jarak antara ikon dan teks */
+}
+
+.skill:hover {
+    background: #9fa5a9;
+    border-radius: 5%;
+}
+
+.project {
+    margin: 10px 0;
+}
+
+.project-image {
+    border-radius: 5%;
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #1162cb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #07eeff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
